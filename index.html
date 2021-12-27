@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Ade-Tade Hospital</title>
+    
+    <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--for responsive design-->
+	  <meta name="author" content="">
+    <meta name="description" content="General practice hospital in Akure with 24hr emergency.">
+    <meta name="keywords" content="General practice hospital, hospital in Akure, hospital in Nigeria, Ade-Tade, antenatal, medical, surgery, preventive screening, family planning, private hospital in Akure, heart disease screening, Ade-Tade Hospital" >
+    <link type="text/css" rel="stylesheet" href="general.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="icon" href="images/favicon.jpeg" type="image/x-icon">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans:wght@400&family=Urbanist:wght@300;400;500&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400&family=Outfit&display=swap');
+      
+      .tab-section>div div{
+        width: 24.78vw;
+        height: 45vh;
+        display: inline-block;
+        transition-duration: 0.5s;
+        
+      }
+      
+      
+      .landing-side{
+        font-family: Raleway;
+        width: 25vw;
+        /*padding-top:5vh;*/
+        position: relative;
+        left:70vw;
+        bottom:9vh;
+        font-weight: 500;
+        /*border:px solid #7498D2;*/
+        background: linear-gradient(#F0F4FA 0%, #C1D9E5 10%, #D1DDF0 50%, #B5C8E7 80%, #B1C4E6 83%, #C3D2EC 90%, #7498D2 100% );
+       }
+       
+       
+       .landing-side .number{
+         background-color: #0B6E84;
+         width: 150px;
+         margin: auto;
+       }
+       
+       .landing>div>div>div{
+         border: 1px solid #0B6E84;
+         color: #fff;
+       }
+       
+       .landing ul{
+         /*list-style-type: none;*/
+         position: relative;
+         margin-top: 32.8%;
+         margin-left:16%;
+         font-size:15px;
+       }
+       
+       .landing ul li{
+         line-height: 40px;
+       }
+       
+       .landing br{
+         display:block;
+         margin-bottom: 1em;
+       }
+       
+       .landing p{
+          text-align: center;
+          color: #000;
+       }
+       
+       /*.landing div>a{*/
+       /*  margin-left: 15%;*/
+       /*  color: #0B6E84;*/
+       /*  padding: 10px;*/
+       /*  border: 1px solid #068a;*/
+       /*  transition-duration: 0.2s;*/
+       /*}*/
+       
+       .landing div>a:hover{
+         padding: 15px;
+         color: #fff;
+         border: 1px solid #fff;
+       }
+       
+       .landing ul li a{
+         color: #102B3F;
+         text-decoration: none;
+       }
+      
+       .landing>div h1{
+         color: #fff;
+       }
+       
+       
+       /*#srvc-row{*/
+       /*  width: 100vw;*/
+       /*}*/
+       
+       /*#srvc-row>div{*/
+       /*  background-color: #fff;*/
+       /*  border: 1px solid #f4f4f4;*/
+       /*  font-family: 'Montserrat';*/
+       /*  height: 60vh;*/
+       /*  width: 32vw;*/
+       /*  margin: 4% 6%;*/
+       /*  display: inline-block;*/
+       /*  box-shadow: 10px 10px 20px #eaeaea;*/
+       /*  border-radius: 20px;*/
+       /*background-image: url(images/nurses_taking_BP_clean_bgnd.jpg); */
+       /*  padding: 2%;*/
+       /*}*/
+       
+       /*#srvc-row>div h3{*/
+       /*  text-align: center;*/
+       /*  font-size: 22px;*/
+       /*  color: #FE3220;*/
+         
+       /*}*/
+       
+       /*#srvc-row>div img{*/
+       /*   position: relative;*/
+       /*   left: 20%;*/
+       /*}*/
+       
+       .service-bar>div>div{
+         width: 200px;
+         height: 200px;
+         /*background-color: #000;*/
+         /*border-radius: 50%;*/
+         margin: 5% auto;
+         background-size: 120px;
+         background-repeat: no-repeat;
+         background-position: center;
+         text-align: center;
+         font-family: Montserrat;
+       }
+       
+       .service-bar p{
+         position: relative;
+         color: #000;
+         font-size: 15px;
+       }
+
+       p{
+         font-size: 15px;
+       }
+       
+       main .material-icons{
+          font-size: 100px;
+          color: #fe5f55;
+       }
+       
+       .service-bar>div>div a{
+         border: 1px solid #a0baba;
+         background-position: center;
+         padding: 5%;
+         transition-duration: 0.2s;
+         text-decoration: none;
+         color: #000;
+         border-radius: 50%;
+       }
+       
+       .service-bar>div>div a:hover{
+         box-shadow: -4px 4px 2px #eaeaea;
+       }
+       
+       .landing{
+          background-image: url(images/homeimage.jpg); background-repeat: no-repeat; padding-top: 5%; background-size: 75vw
+       }
+       
+       
+
+@media only screen and (max-width: 595px) {
+ .landing{
+          height:40vh;
+          background-size: 100vw;}
+ }
+  
+
+}
+
+
+
+
+
+
+    </style>
+  </head>
+  
+  <body>
+    <header>
+      <!--<section style="height: 20px; background-color: #060410;"></section>-->
+      <nav>
+        <div>
+          <a href="index.html"><img src="images/logofinal.png" alt="logo"/></a>
+          <cap>Ade-Tade Hospital, <b>Akure</b></cap>
+        </div>
+        
+        <ul>
+         
+          <li id="active"><a href="index.html">Home</a></li>
+          
+          <li>
+            
+          <a href="about-us.html">About Us</a>
+            
+            
+          </li>
+          
+          
+          <li>
+            <div class="dropdown-wrapper">
+              <a href="services.html">Services</a>
+              <i class="material-icons" style="color: #495057; position: relative; top: 0.9vh;">arrow_drop_down</i>
+                <ul>
+                  <span class="m-wrap">
+                    <div>
+                      <li class="description">Our services are targeted to your individual needs.</li>
+                    </div>
+                      
+                    <div class="main-menu">
+                      <li><a href="general-medical-services.html">General Medical Services</a></li>
+                      <li><a href="womens-health.html">Women's Health</a></li>
+                      <li><a href="surgery-emergency.html">Surgery & Emergency</a></li>
+                    </div>
+                  </span>
+                </ul>
+              </div>
+          </li>
+          
+          
+          <li>
+            <div class="dropdown-wrapper">
+              <a  href="patient-resources.html">Patient Resources</a>
+              <i class="material-icons" style="color: #495057; position: relative; top: 0.9vh;">arrow_drop_down</i>
+                <ul>
+                  <span class="m-wrapII">
+                    <div>
+                      <li class="description">Get helpful information to prepare for your visit.</li>
+                    </div>
+                    
+                    <div class="main-menu">
+                      <li><a href="patient-resources.html#covid19">COVID-19 information</a></li>
+                      <li><a href="patient-resources.html#registration">Registration</a></li>
+                      <li><a href="patient-resources.html#visiting">Visiting a patient</a></li>
+                      <li><a href="patient-resources.html#payment">Payment procedure</a></li>
+                    </div>
+                  </span>
+                </ul>
+              </div>
+          </li>
+          
+          <li><div class="dropdown-wrapper"><a href="adetadeblog.html">Blog</a></div></li>
+          
+          <li>
+            <div class="dropdown-wrapper">
+              <a href="articles.html">Health Education</a>
+              <i class="material-icons" style="color: #495057; position: relative; top: 0.9vh;">arrow_drop_down</i>
+            
+              <ul>
+                <span class="m-wrapIII">
+                  <div>
+                    <li class="description">Learn useful tips to help you stay healthy.</li>
+                  </div>
+                
+                  <div class="main-menu">
+                    <li><a href="articles.html">Articles</a></li>
+                  </div>
+                </span>
+                
+              </ul>
+            </div>
+          </li>
+        
+        </ul>
+        
+      </nav>
+      <span>Ade-Tade Hospital, Akure</span>
+      
+    </header>
+    
+    <main>
+      <section class="landing">
+      
+      
+      
+      
+          <div class="landing-side">
+        
+              <p style="font-size:18px; padding-top: 15%;">General Practice Hospital in Akure</p>
+              <p class="number" style="color:#fff;">0806-635-8086</p>
+              <div style="#000;"><p>services</p> </div>
+          
+              <ul>
+                <li><a href="general-medical-services.html">Medical services</a></li>
+                <li><a href="surgery-emergency.html#surgery">Surgical services</a></li>
+                <li><a href="womens-health.html#antenatal-care">Antenatal and delivery services</a></li>
+                <li><a href="womens-health.html#family-planning">Family planning</a></li>
+                <li><a href="general-medical-services.html#preventive-screening">Preventive screening</a></li>
+                <li><a href="surgery-emergency.html#emergency">24hr Emergency</a></li>
+              </ul>
+            
+          
+          </div>
+          <!--<div class="bar" style="background-color:">Who we are:</div>-->
+      
+      
+      
+      </section>
+      
+      <section style="line-height: 30px; background-color: rgb(255, 255, 255);">
+        
+        <h2 class="level-2-hdr" style="width: 50vw; margin-top: 6%; text-align: center; color: #7DA1A1">Ou<span>r Missi</span>on</h2>
+        <!--<p style="color:#000; font-family: Montserrat; font-size: 20px;">Who We Are</p>-->
+        
+        <p style="padding: 0% 21%; margin-bottom:5%; position: relative; font-family: Montserrat; padding-bottom: 5%; text-align: center;">Welcome to Ade-Tade Hospital. Our mission is to provide high-quality and affordable care, with the best consideration for patient satisfaction. Our team is knowledgeable, compassionate, and focused on the treatment and prevention of illnesses, and the maintenance of your health in a comfortable and respectful environment.</p>
+        
+        
+        <div id="services-home" style=" background-color:#fff; display: flex;">
+          
+          
+          <img id="services-img-home" src="images/welcome_transparent.png" width="90%" alt="Welcome to Ade-Tade Hospital" style="opacity:0.9; padding-left:5%"/>
+          
+          <div  id="services-text-home" style="padding:5% 6%; background-color: #f7f7f7;  font-family: Montserrat; text-align: center; line-height: 35px;">
+            <h2 class="level-2-hdr" style="color:#a0baba;" >Ou<span>r Servic</span>es</h2>
+            <p>We provide a variety of services tailored to your healthcare needs. Health is wealth; that's why we are here to help you stay healthy so that you can enjoy the precious moments of life. Visit us for treatment of general medical and surgical illnesses, checkup, antenatal care and delivery, family planning, and chronic disease counseling. And for your urgent healthcare needs, we are open 24/7.</p>
+            </div>
+        </div>
+        
+        
+      </section>
+      
+      
+      
+      <section class="service-bar">
+        <h2 class="level-2-hdr" style="padding: 5% 0% 5%;">What type of service do you need?</h2>
+        
+        <div style="display: flex; flex-wrap: wrap; height:70vh" >
+          <div><i class="material-icons">healing</i><p>Non-urgent care</p><a href="general-medical-services.html">>></a></div>
+          <div><i class="material-icons">pregnant_woman</i><p>Antenatal care & delivery</p><a href="womens-health.html#antenatal-care">>></a></div>
+          <div><i class="material-icons">medical_services</i><p>Routine check-up</p><a href="general-medical-services.html#preventive-screening">>></a></div>
+          <div><i class="material-icons">emergency</i><p>Emergency</p><a href="surgery-emergency.html#emergency">>></a></div>
+          
+         
+        </div>
+        
+         <p  id="bottom-cta" style="padding: 1.5%; width: 40vw; margin: auto; margin-top: -10%; font-family: Montserrat; background-color: #f7f7f7; text-align: center;">Check our <a style="text-decoration: none; color: #000; font-weight: bold;" href="services.html">services</a> page for more.</p>
+      </section>
+      
+      
+    </main>
+    
+    <footer>
+      <div id="contact-options">
+      <div id="phone"><p>Call us:</p><p> 0806-635-8086</p></div>
+        
+        <div id="address">Find us:<p style="color: #CC0000;">5-7 Ade Tade Street,</p><p style="color: #CC0000;">Okuta Elerinla Estate, Opposite Ilesha garage</p><p style="color: #CC0000;">Akure, Ondo State</p>
+       </div>
+       <div id="map">
+	     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1978.862198144515!2d5.166988144776901!3d7.2721701416479725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10478f1974bbffa5%3A0x3142d29ec5e0571e!2sADE-TADE%20HOSPITAL!5e0!3m2!1sen!2sus!4v1630640517808!5m2!1sen!2sus" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	   </div>
+	   
+	   <!--<div>Email adetadexxx@xxxx.com</div>-->
+	    </div>
+	    
+	   <small style="float: left;position: relative;top: 30px;">&copy;Copyright 2021, Ade Tade Hospital, Akure</small>
+	   <small style="float: right;position: relative;top: 30px;"></small>
+    </footer>
+  </body>
+</html>
