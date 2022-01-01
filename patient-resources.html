@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Patient Resources | Ade-Tade Hospital</title>
+    
+    <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--for responsive design-->
+	  <meta name="author" content="">
+    <meta name="description" content="General Practice hospital in Akure. Find helpful information to prepare for your visit.">
+    <link type="text/css" rel="stylesheet" href="general.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link name="keywords" content="general medical care, hospital in Akure, clinic in Akure, doctor in Akure, treatment, COVID-19, face mask, visitors, NHIS provider in Akure, hospital near Ilesha-Akure-Benin expressway ">
+    <link rel="icon" href="images/favicon.jpeg" type="image/x-icon">
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans:wght@400&family=Urbanist:wght@300;400;500&family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400&family=Outfit&display=swap');
+      
+      body{
+        background-color: #ffffff;
+      }
+      
+      #contact-options{
+        font-size: 2.5vh;
+      }
+      
+      .landing{
+        height: 60vh;
+        background-color: #EFEFEF;
+        padding: 35px;
+        background-image: url(images/patientresources.jpg);
+        background-repeat: no-repeat;
+        color: #fff;
+        background-size: 100%;
+      }
+      
+      .landing h1{
+        font-size:3em;
+      }
+      
+      ul{
+        list-style-position: inside;
+      }
+      
+      section h1{
+        position: absolute;
+        top: 40vh;
+        left: 5vw;
+        font-family: Raleway;
+        font-size: 50px;
+        font-weight: 400;
+      }
+      
+      #payment h2{
+        text-align: left;
+      }
+      
+      .btn-wrapper{
+        padding: 20px;
+        display: flex;
+      }
+      
+      .btn-wrapper div{
+        width: 180px;
+        margin: 2vh auto;
+        padding: 2%;
+        background-color: #DEEFD2;
+        font-size: 15px;
+        font-family: Montserrat;
+        text-align: center;
+        /*border-radius: 50%;*/
+        transition-duration: 0.2s;
+      }
+      
+       .level-2-hdr{
+        margin: 8vh 0;
+      }
+      
+      .btn-wrapper div:hover{
+        background-color: #E0E0E0;
+      }
+      
+      .btn-wrapper div a{
+        text-decoration: none;
+        color: #000;
+      }
+      
+      .main-section{
+        padding: 0 15%;
+        width: 100vw;
+      }
+      
+      
+    /*Responsive design*/
+    
+    @media (max-width: 575.98px) {
+      
+      main .landing{
+        height: 22vh;
+      }
+      
+       .landing h1{
+        font-size:1.6em;
+      
+        
+      }
+      
+      #payment, #payment ul, #payment h2{
+        text-align: center;
+      }
+      
+      .main-section div h2{
+        font-size: 20px;
+      }
+      
+      .btn-wrapper{
+        flex-wrap:  wrap;
+      }
+      
+      .btn-wrapper div{
+        font-size: 12px;
+      }
+      
+      .level-2-hdr{
+        font-size: 20px;
+      }
+       
+      .level-2-hdr, h2{
+        text-align: center;
+      }
+      
+      
+      .main-section div{
+        text-align: justify;
+        width: 70vw;
+        padding: 0 auto;
+      }
+      
+      .main-section div p{
+        font-size: 11px;
+        line-height: 30px;
+      }
+      
+      .main-section ul{
+        text-align: left;
+      }
+      
+      .main-section ul li{
+        font-size: 11px;
+        line-height: 22px;
+      }
+    }
+    
+    @media (max-width: 767.98px) and (min-width: 576px){
+      
+       main .landing{
+        height: 25vh;
+      }
+      
+       .landing h1{
+        font-size:1.6em;
+        /*border:1px solid red;*/
+       }
+       
+      .main-section div h2{
+        font-size: 20px;
+      }
+      
+      
+      
+      .btn-wrapper{
+        flex-wrap:  wrap;
+      }
+      
+      .btn-wrapper div{
+        font-size: 12px;
+      }
+      
+      .level-2-hdr, h2{
+        text-align: center;
+      }
+      
+      
+      .main-section div{
+        text-align: justify;
+        width: 70vw;
+        padding: 0 auto;
+      }
+      
+      .main-section div p{
+        font-size: 11px;
+        line-height: 30px;
+      }
+      
+      .main-section ul{
+        text-align: left;
+      }
+      
+      .main-section ul li{
+        font-size: 11px;
+        line-height: 22px;
+      }
+    }
+
+@media (max-width: 991.98px) and (min-width: 768px) {
+  
+      .main-section div h2{
+        font-size: 20px;
+      }
+      
+        main .landing{
+        height: 49vh;
+      }
+      
+       .landing h1{
+        font-size:1.9em;
+        /*border:1px solid red;*/
+       }
+       
+      
+      .btn-wrapper{
+        flex-wrap:  wrap;
+      }
+      
+      .btn-wrapper div{
+        font-size: 12px;
+      }
+      
+      .level-2-hdr{
+        font-size: 20px;
+      }
+       
+      .level-2-hdr, h2{
+        text-align: center;
+      }
+      
+      
+      .main-section div{
+        text-align: justify;
+        width: 70vw;
+        padding: 0 auto;
+      }
+      
+      .main-section div p{
+        font-size: 14px;
+        line-height: 30px;
+      }
+      
+      .main-section ul{
+        text-align: left;
+      }
+      
+      .main-section ul li{
+        font-size: 13px;
+        line-height: 20px;
+      }
+}
+@media screen and (max-width: 1199.98px) and (min-width: 992px) {
+      
+      
+         main .landing{
+        height: 50vh;
+      }
+      
+       .landing h1{
+        font-size:1.9em;
+        /*border:1px solid red;*/
+       }
+      
+      .main-section div h2{
+        font-size: 20px;
+      }
+      
+      .btn-wrapper{
+        flex-wrap:  wrap;
+      }
+      
+      .btn-wrapper div{
+        font-size: 12px;
+      }
+      
+      .level-2-hdr{
+        font-size: 20px;
+      }
+       
+      .level-2-hdr, h2{
+        text-align: center;
+      }
+      
+      
+      .main-section div{
+        text-align: justify;
+        width: 70vw;
+        padding: 0 auto;
+      }
+      
+      .main-section div p{
+        font-size: 15px;
+        line-height: 30px;
+      }
+      
+      .main-section ul{
+        text-align: left;
+      }
+      
+      .main-section ul li{
+        font-size: 15px;
+        line-height: 17px;
+      }
+}
+      
+    </style>
+  </head>
+  
+  <body>
+    <header>
+      <!--<section style="height: 20px; background-color: #060410;"></section>-->
+      <nav>
+        <div>
+          <a href="index.html"><img src="images/logofinal.png" alt="logo"/></a>
+          <span style="font-size: 10px;">5-7 Ade Tade Street, Okuta Elerinla Estate, Opposite Ilesha garage <br><b style="color: #ED2939">Call us: </b>0806-635-8086</span>
+          <cap>Ade-Tade Hospital, <b>Akure</b></cap>
+        </div>
+        <a onclick="menuFunction()" href="javascript:void(0);"><i class="material-icons">menu</i></a>
+        <ul id="menuLinks">
+         
+          <li><a href="index.html">Home</a></li>
+         
+          <li>
+           
+          <a href="about-us.html">About Us</a>
+           
+           
+          </li>
+         
+         
+          <li>
+            <div class="dropdown-wrapper">
+              <a href="services.html">Services</a>
+              <i class="material-icons" style="color: #495057; position: relative; top: 0.9vh;">arrow_drop_down</i>
+                <ul>
+                  <span class="m-wrap">
+                    <div>
+                      <li class="description">Our services are targeted to your individual needs.</li>
+                    </div>
+                     
+                    <div class="main-menu">
+                      <li><a href="general-medical-services.html">General Medical Services</a></li>
+                      <li><a href="womens-health.html">Women's Health</a></li>
+                      <li><a href="surgery-emergency.html">Surgery & Emergency</a></li>
+                    </div>
+                  </span>
+                </ul>
+              </div>
+          </li>
+         
+         
+          <li>
+            <div class="dropdown-wrapper">
+              <a  href="patient-resources.html">Patient Resources</a>
+              <i class="material-icons" style="color: #495057; position: relative; top: 0.9vh;">arrow_drop_down</i>
+                <ul>
+                  <span class="m-wrapII">
+                    <div>
+                      <li class="description">Get helpful information to prepare for your visit.</li>
+                    </div>
+                   
+                    <div class="main-menu">
+                      <li><a href="patient-resources.html#covid19">COVID-19 information</a></li>
+                      <li><a href="patient-resources.html#registration">Registration</a></li>
+                      <li><a href="patient-resources.html#visiting">Visiting a patient</a></li>
+                      <li><a href="patient-resources.html#payment">Payment procedure</a></li>
+                    </div>
+                  </span>
+                </ul>
+              </div>
+          </li>
+         
+          <li><div class="dropdown-wrapper"><a href="adetadeblog.html">Blog</a></div></li>
+         
+          <li>
+            <div class="dropdown-wrapper">
+              <a href="articles.html">Health Education</a>
+              <i class="material-icons" style="color: #495057; position: relative; top: 0.9vh;">arrow_drop_down</i>
+           
+              <ul>
+                <span class="m-wrapIII">
+                  <div>
+                    <li class="description">Learn useful tips to help you stay healthy.</li>
+                  </div>
+               
+                  <div class="main-menu">
+                    <li><a href="articles.html">Articles</a></li>
+                  </div>
+                </span>
+               
+              </ul>
+            </div>
+          </li>
+       
+        </ul>
+       
+      </nav>
+      <span>Ade-Tade Hospital, General Practice Hospital in Akure</span>
+    </header>
+    
+    <main>
+      <section class="landing">
+        
+        <h1>Patient resources</h1>
+        
+        <!--<ul>-->
+        <!--  <li style="display: inline-block; margin-right: 10px;">What to expect when you visit</li>-->
+        <!--  <li style="display: inline-block;">Payment options</li>-->
+        <!--  <li>Frequently asked questions</li>-->
+        <!--</ul>-->
+      </section>
+      
+      <section class="btn-wrapper">
+        <div><a href="#covid19">COVID-19</a></div>
+        <div><a href="#visiting">When you visit</a></div>
+        <div><a href="#payment">Payment</a></div>
+        <!--<div><a href="#faqs">FAQs</a></div>-->
+      </section>
+      
+       <section class="main-section">
+         
+        
+        
+        <div id="covid19">
+          <h2 class="level-2-hdr" style="color: #719898;">What t<span>o expect when yo</span>u visit</h2>
+          
+          <h2>COVID-19 Policy</h2>
+          
+          <p>Following the Nigeria Centre for Disease Control (NCDC) advisory, at Ade-Tade Hospital we have a “no mask, no entry” policy. To protect you and to protect ourselves, all members of our team wear face masks. We respectfully expect you to do the same. Please wear a cloth mask or medical mask whether you are a patient, a family member, or a visitor, for as long as you are on our premises.  If we need to examine your face or a procedure requires access to your face, we will direct you on how and when to remove your mask.</p>
+          
+          <p>To reduce the risk of infection or spread of COVID-19, NCDC advises members of the public  to adhere to the following hand and respiratory hygiene measures:</p>
+          
+          <ul>
+            <li>Wash your hands regularly with soap and water or use an alcohol-based sanitiser if no water and soap is available.</li>
+            
+            <li>Use a non-medical face mask for all persons in public spaces.</li>
+            
+            <li>Practice no-touch greetings.</li>
+            
+            <li>Maintain at least 2 metres physical distance between yourself and anyone who is coughing or sneezing.</li>
+            <li>Avoid crowded spaces such as open markets, crowded supermarkets, and pharmacies.</li>
+            
+            <li>Adhere to other national and state directives.</li>
+            
+            <p><a href="https://covid19.ncdc.gov.ng/faq/" target="_blank">Click here</a> for more information and answers to questions on COVID-19.</p>
+
+        </ul>
+        
+        </div>
+        
+        <div id="registration">
+          
+          <h2>Registration</h2>
+          
+          <p>
+            Upon your arrival at our hospital, you will be greeted by a nurse and asked for your information and the reason for your visit. If you already have a file with us, you may be required to provide your small card or your patient number so that we can pull up your file. If you are visiting our hospital for the first time, a new file will be opened for you and you will be given a mini-card with your patient number on it. Bringing your mini-card with you each time you visit will make it faster and easier for us to pull up your record.
+
+          </p>
+          
+        </div>
+        
+        
+        <div id="visiting">
+          <h2>Visitor Information</h2>
+        
+          <b style="font-size: 11px;">Visiting Hours</b >
+        
+          <p>
+            We limit visiting hours for our patients who need rest. If you are not a family member directly caring for a patient, we will ask that you kindly respect our visiting hours.
+
+          </p>
+        
+          <p>For more, please call us at 0806-635-8086.</p>
+        </div>
+        
+        <div id="payment">
+          <h2>Payment Procedure</h2>
+        
+          <p>We accept the following methods of payment:</p>
+          
+          <ul>
+            <li>Cash payment</li>
+            <li>POS payment</li>
+          </ul>
+          
+          <p>We are an NHIS provider.</p>
+          
+        </div>
+        
+        
+      </section>
+      
+     
+    </main>
+        <footer>
+      <div id="contact-options">
+      <div id="phone"><p>Call us:</p><p> 0806-635-8086</p></div>
+        
+        <div id="address">Find us:<p style="color: #CC0000;">5-7 Ade Tade Street,</p><p style="color: #CC0000;">Okuta Elerinla Estate, Opposite Ilesha garage</p><p style="color: #CC0000;">Akure, Ondo State</p>
+       </div>
+       <div id="map">
+	     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1978.862198144515!2d5.166988144776901!3d7.2721701416479725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10478f1974bbffa5%3A0x3142d29ec5e0571e!2sADE-TADE%20HOSPITAL!5e0!3m2!1sen!2sus!4v1630640517808!5m2!1sen!2sus" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+	   </div>
+	   
+	   <!--<div>Email adetadexxx@xxxx.com</div>-->
+	    </div>
+	    
+	   <small style="float: left;position: relative;top: 30px;">&copy;Copyright 2021, Ade Tade Hospital, Akure</small>
+	   <small style="float: right;position: relative;top: 30px;"></small>
+    </footer>
+    
+    <script>
+   
+    function menuFunction() {
+      var menu = document.getElementById("menuLinks");
+      if (menu.style.display === "none"){
+        menu.style.display="flex";
+      }
+     
+      else{
+        menu.style.display="none";
+      }
+     
+    }
+     
+    </script>
+  </body>
+</html>
