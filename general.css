@@ -105,18 +105,19 @@ nav>div{
 
 #service-nav div{
   width: 20vw;
-  height: 30vh;
-  background-size: 65%;
+  height: 20vh;
+  background-size: 40%;
   border: 1px solid #eaeaea;
   margin: 0 auto;
   text-align: center;
   font-family: Montserrat;
-  font-size: 100%;
+  font-size: 90%;
   padding: 2%;
   background-repeat: no-repeat;
   background-position: center;
        
   }
+     
      
   #service-nav{
     display: flex;
@@ -278,7 +279,7 @@ nav li ul>span>div{
 .main-section p{
   margin: 20px 0;
   line-height: 30px;
-  text-align: justify;
+  /*text-align: justify;*/
   font-weight: 300;
   font-size: 15px;
 }
@@ -301,7 +302,6 @@ header>span{
 
 .main-section{
   font-family: Montserrat;
-  padding: 5% 0 0 10%;
 }
 
 nav>a>.material-icons{
