@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>About | Ade-Tade Hospital</title>
+    
+    <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--for responsive design-->
+	  <meta name="author" content="">
+    <meta name="description" content="General practice hospital providing quality care in Akure.">
+    <link type="text/css" rel="stylesheet" href="general.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link name="keywords" content="quality care, General practice hospital, Adeyemo Tade, Wemimo Tade, Ade-Tade Hospital">
+    <link rel="icon" href="images/favicon.jpeg" type="image/x-icon">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans:wght@400&family=Urbanist:wght@300;400;500&family=Montserrat:wght@200;300;400&family=Roboto:wght@300&family=Outfit:wght@200;300;400&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400&display=swap');
+      
+     
+      .landing{
+        height:80vh;
+        background: linear-gradient(#F0F4FA 0%, #C1D9E5 10%, #D1DDF0 50%, #B5C8E7 80%, #B1C4E6 83%, #C3D2EC 90%, #7498D2 100% );
+      }
+      
+      
+      .landing img{
+        position: relative;
+        top: 10%;
+        right:8%;
+        border-radius: 30px
+      }
+      
+      .landing>div>h1{
+        font-size: 5em;
+        font-weight: 400;
+        position: relative;
+        top: 20%;
+        left: 17%;
+        padding: 10px 20px;
+        z-index:1;
+        font-family: Raleway;
+      }
+      
+      
+      
+      .landing>div a:hover{
+        color: #68B0AB;
+      }
+      
+      h3{
+        text-align: center;
+        color: #FE3220;
+        /*width: 20%;*/
+        /*margin: auto;*/
+        /*text-transform: uppercase;*/
+        font-family: Montserrat;
+        font-size: 12px;
+      }
+      
+      #leader-section{
+        background-color: #efefef;
+      }
+      
+      
+      .underlined{
+        border-bottom: 1px solid #000;
+        padding-bottom: 15px;"
+      }
+      
+      .bio{
+        padding: 5% 5vw;
+        
+      }
+      
+      .bio img{
+        width:350px;
+      }
+      
+      .txt-wrapper{
+        /*width: 60vw;*/
+        /*height: 25vw;*/
+        text-align: justify;
+        line-height: 25px;
+        font-size: 0.9em;
+        font-family: Montserrat;
+        padding: 3%;
+        margin:auto;
+        display: inline-block;
+        font-weight: 300;
+        /*border:1px solid red;*/
+      }
+      
+      .description-bar{
+        background-color: #fff;
+        text-align: justify;
+        line-height: 35px;
+        border: 1px solid #eaeaea;
+        width:60vw;
+        margin: -5vh auto;
+        padding: 1% 5%;
+        
+      }
+      
+      .description-bar img{
+        margin: 0 30%;
+      }
+      
+      .description-bar p{
+        font-size: 15px;
+        font-weight: 300;
+        color: #000;
+        font-family: Montserrat;
+      }
+      
+      
+      #leader-section{
+        margin-top: 2vh;
+      }
+      
+      .name{
+    
+    font-size:15px;
+  }
+      
+      
+      .level-2-hdr{
+        font-size: 45px;
+      }
+      
+      #staff-section{
+        width:80vw;
+        margin:auto;
+      }
+      
+       #staff-section img{
+        height:40vh;
+      }
+
+     /*Responsive*/
+     
+  /*// X-Small devices (portrait phones, less than 576px)*/
+  @media (max-width: 575.98px) {
+    
+
+  header>span{
+   font-size: 0.8em;
+   /*border:1px solid red;*/
+  }
+    
+  .landing{
+   height:42vh;
+   margin-bottom:4vh;
+   
+   /*border:1px solid green;*/
+   
+  }
+   
+   
+   .landing>div>h1{
+        font-size: 1.8em;
+        font-weight: 400;
+        position: relative;
+        top: 3%;
+        left: 25vw;
+        padding: 10px 0;
+        z-index:1;
+        font-family: Raleway;
+        width:30vw;
+        /*border:1px solid red;*/
+      }
+      
+ 
+  .landing>div>img{
+    width:60vw;
+    position:relative;
+    right:7vw;
+    /*margin:auto;*/
+   
+    /*border:1px solid red;*/
+  }
+  
+  .description-bar{
+    width:70vw;
+    margin-bottom:3vh;
+  }
+  
+  .description-bar p{
+    font-size:0.8em;
+  }
+  
+   .description-bar img{
+        margin: 0 10%;
+        width:70%;
+      }
+  
+   #leader-section img{
+      width:70%;
+  }
+  
+  #leader-section{
+    width:80vw;
+    margin:auto;
+  }
+  
+  #leader-section p{
+    font-size:0.8em;
+    /*border:1px solid orange;*/
+  }
+  
+   #leader-section h1{
+       margin-top:7vh;
+       /*border:1px solid red;*/
+       font-size:1em;
+       
+      }
+      
+  .underlined{
+    border-bottom:none;
+  }
+        
+  .name{
+    /*border:1px solid blue;*/
+    display:block;
+    font-size:0.8em;
+    margin-left:-7vw;
+  }
+  
+  #staff-section>div{
+    flex-direction:column;
+  }
+  
+  
+    #staff-section{
+        width:60vw;
+        margin:auto;
+      }
+      
+      
+      
+    #staff-group-2{
+      margin-top:2vh;
+      display:none;
+    }
+      
+  .level-2-hdr{
+    font-size: 20px;
+  }
+  
+  
+  
+ footer>div{
+  font-size:2vw;
+  /**{border:1px solid red;}*/
+  }
+     
+}
+
+ /*// Small devices (landscape phones, less than 768px)*/
+ 
+@media (max-width: 767.98px) and (min-width: 576px){
+  *{
+    /*border:1px solid green;*/
+  }
+  
+  
+  /*hamburger menu icon*/
+        nav>a>.material-icons{
+          color: #fff;
+          display: block;
+          font-size: 28px;
+          position: relative;
+          top: 1.5vh;
+          background-color: #eee;
+          padding: 1% 4vw;
+          width:94.5vw;
+          /*border:1px solid green;*/
+        }
+        
+ header>span{
+   font-size: 0.8em;
+   position: relative;
+   top:6.5vh;
+   /*border:1px solid red;*/
+  }
+    
+  .landing{
+   height:72vh;
+   
+   /*border:1px solid green;*/
+   
+  }
+   
+   
+   .landing>div>h1{
+        font-size: 2em;
+        font-weight: 400;
+        position: relative;
+        top: 5%;
+        left: 15vw;
+        padding: 10px 20px;
+        z-index:1;
+        font-family: Raleway;
+      }
+      
+ 
+  .landing>div>img{
+    width:50%;
+    position:relative;
+    left:15vw;
+    /*margin:auto;*/
+   
+    /*border:1px solid red;*/
+  }
+  
+  .description-bar{
+    width:60vw;
+    position: relative;
+    bottom:5vh;
+  }
+  
+  .description-bar p{
+    font-size:0.6em;
+  }
+  
+   .description-bar img{
+        margin: 0 10%;
+      }
+      
+  
+      
+   #leader-section {
+    width:90vw;
+    margin:3vw auto;
+    /*border:1px solid orange;*/
+  }
+  
+  #leader-section p{
+    font-size:0.8em;
+    /*border:1px solid orange;*/
+  }
+  
+   #leader-section h1{
+       margin-top:7vh;
+       /*border:1px solid red;*/
+       font-size:1em;
+       
+      }
+      
+  .underlined{
+    border-bottom:none;
+  }
+        
+  .name{
+    /*border:1px solid blue;*/
+    display:block;
+    font-size:0.8em;
+    margin-left:-7vw;
+  }
+  
+  #staff-section>div{
+    flex-direction:column;
+  }
+  
+  
+    #staff-section{
+        width:35vw;
+        margin:auto;
+      }
+      
+      
+      
+    #staff-group-2{
+      margin-top:2vh;
+      display:none;
+    }
+      
+  .level-2-hdr{
+    font-size: 20px;
+  }
+  
+  
+  
+ footer>div{`
+ 
+  font-size:2vw;
+  /**{border:1px solid red;}*/
+  }
+     
+}
+  
+  
+      
+      /*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) and (min-width: 768px) {
+  
+ header>span{
+   font-size: 0.9em;
+   position: relative;
+   top:6.5vh;
+   
+   /*border:1px solid red;*/
+  }
+    
+  .landing{
+   height:70vh;
+   
+   /*border:1px solid green;*/
+   
+  }
+   
+   
+   .landing>div>h1{
+        font-size: 2em;
+        font-weight: 400;
+        position: relative;
+        top: 15vh;
+        left: 22vw;
+        padding: 10px 20px;
+        z-index:1;
+        font-family: Raleway;
+      }
+      
+ 
+  .landing>div>img{
+    width:40vw;
+    position:relative;
+   top:10vh;
+   left:15vw;
+    /*margin:auto;*/
+   
+    /*border:1px solid red;*/
+  }
+  
+  .description-bar{
+    width:70vw;
+     position: relative;
+    bottom:5vh;
+  }
+  
+  .description-bar p{
+    font-size:0.8em;
+  }
+  
+   .description-bar img{
+        margin: 0 10%;
+      }
+  
+  #leader-section p{
+    font-size:0.9em;
+    /*border:1px solid orange;*/
+  }
+  
+   #leader-section h1{
+       margin-top:7vh;
+       /*border:1px solid red;*/
+       font-size:1.2em;
+       
+      }
+      
+  .underlined{
+    border-bottom:none;
+  }
+        
+  .name{
+    /*border:1px solid blue;*/
+    display:block;
+    font-size:0.8em;
+    margin-left:-7vw;
+  }
+  
+  #staff-section>div{
+    flex-direction:column;
+  }
+  
+  
+    #staff-section{
+        width:35vw;
+        margin:auto;
+      }
+      
+      
+      
+    #staff-group-2{
+      margin-top:2vh;
+      display:none;
+    }
+      
+  .level-2-hdr{
+    font-size: 25px;
+    /*border:1px solid red;*/
+  }
+  
+  
+  
+ footer>div{
+  font-size:1.8vw;
+  /**{border:1px solid red;}*/
+  }
+     
+}
+      
+      
+      /*// Large devices (ipads, desktops less than 1200px)*/
+@media screen and (max-width: 1199.98px) and (min-width: 992px) {
+  
+  header>span{
+   font-size: 0.9em;
+   /*border:1px solid green;*/
+  }
+ 
+  
+  .landing{
+   height:50vh;
+   
+   /*border:1px solid green;*/
+   
+  }
+   
+   
+   .landing>div>h1{
+        font-size: 3em;
+        font-weight: 400;
+        position: relative;
+        top: 5%;
+        left: 28vw;
+        padding: 10px 20px;
+        z-index:1;
+        font-family: Raleway;
+      }
+      
+ 
+  .landing>div>img{
+    width:60%;
+    position:relative;
+    /*right:20vw;*/
+    margin-left:16vw;
+   
+    /*border:1px solid red;*/
+  }
+  
+  .description-bar{
+    width:70vw;
+  }
+  
+  .description-bar p{
+    font-size:1em;
+  }
+  
+   .description-bar img{
+        margin: 0 10%;
+      }
+  
+  #leader-section p{
+    font-size:1em;
+    /*border:1px solid orange;*/
+  }
+  
+   #leader-section h1{
+       margin-top:7vh;
+       /*border:1px solid red;*/
+       font-size:1.2em;
+       
+      }
+      
+  .underlined{
+    border-bottom:none;
+  }
+        
+  .name{
+    /*border:1px solid blue;*/
+    display:block;
+    font-size:0.8em;
+    margin-left:-7vw;
+  }
+  
+  #staff-section>div{
+    flex-direction:column;
+  }
+  
+  
+   
+     #staff-group-1{
+      
+      width:25vw;
+      margin:auto;
+    }
+      
+    #staff-group-2{
+      margin:2vh auto;
+      width:50vw;
+      
+      /*display:none;*/
+    }
+      
+  .level-2-hdr{
+    font-size: 25px;
+  }
+  
+  
+  
+ footer>div{
+  font-size:1.5vw;
+  /**{border:1px solid red;}*/
+  }
+     
+}
+
+
+
+      
+      
+    </style>
+  </head>
+  
+  <body>
+     <header>
+      <!--<section style="height: 20px; background-color: #060410;"></section>-->
+      <nav>
+        <div>
+          <a href="index.html"><img src="images/logofinal.png" alt="logo"/></a>
+          <span style="font-size: 10px;">5-7 Ade Tade Street, Okuta Elerinla Estate, Opposite Ilesha garage <br><b style="color: #ED2939">Call us: </b>0806-635-8086</span>
+          <cap>Ade-Tade Hospital, <b>Akure</b></cap>
+        </div>
+        <a onclick="menuFunction()" href="javascript:void(0);"><i class="material-icons">menu</i></a>
+        <ul id="menuLinks">
+         
+          <li><a href="index.html">Home</a></li>
+         
+          <li>
+           
+          <a href="about-us.html">About Us</a>
+           
+           
+          </li>
+         
+         
+          <li>
+            <div class="dropdown-wrapper">
+              <a href="services.html">Services</a>
+              <i class="material-icons" style="color: #495057; position: relative; top: 0.9vh;">arrow_drop_down</i>
+                <ul>
+                  <span class="m-wrap">
+                    <div>
+                      <li class="description">Our services are targeted to your individual needs.</li>
+                    </div>
+                     
+                    <div class="main-menu">
+                      <li><a href="general-medical-services.html">General Medical Services</a></li>
+                      <li><a href="womens-health.html">Women's Health</a></li>
+                      <li><a href="surgery-emergency.html">Surgery & Emergency</a></li>
+                    </div>
+                  </span>
+                </ul>
+              </div>
+          </li>
+         
+         
+          <li>
+            <div class="dropdown-wrapper">
+              <a  href="patient-resources.html">Patient Resources</a>
+              <i class="material-icons" style="color: #495057; position: relative; top: 0.9vh;">arrow_drop_down</i>
+                <ul>
+                  <span class="m-wrapII">
+                    <div>
+                      <li class="description">Get helpful information to prepare for your visit.</li>
+                    </div>
+                   
+                    <div class="main-menu">
+                      <li><a href="patient-resources.html#covid19">COVID-19 information</a></li>
+                      <li><a href="patient-resources.html#registration">Registration</a></li>
+                      <li><a href="patient-resources.html#visiting">Visiting a patient</a></li>
+                      <li><a href="patient-resources.html#payment">Payment procedure</a></li>
+                    </div>
+                  </span>
+                </ul>
+              </div>
+          </li>
+         
+          <li><div class="dropdown-wrapper"><a href="adetadeblog.html">Blog</a></div></li>
+         
+          <li>
+            <div class="dropdown-wrapper">
+              <a href="articles.html">Health Education</a>
+              <i class="material-icons" style="color: #495057; position: relative; top: 0.9vh;">arrow_drop_down</i>
+           
+              <ul>
+                <span class="m-wrapIII">
+                  <div>
+                    <li class="description">Learn useful tips to help you stay healthy.</li>
+                  </div>
+               
+                  <div class="main-menu">
+                    <li><a href="articles.html">Articles</a></li>
+                  </div>
+                </span>
+               
+              </ul>
+            </div>
+          </li>
+       
+        </ul>
+       
+      </nav>
+      <span>Ade-Tade Hospital, General Practice Hospital in Akure</span>
+    </header>
+    <main>
+      
+      
+      
+      <section class="landing" style="display: flex; ">
+        <div>
+          <h1 style="color: #BFAE9F; ">About <span style="color:#fff;">us</span></h1>
+        </div>
+        
+        <div>
+          <img src="images/about_adetadehospital.jpg" alt="Ade-Tade Hospital" width="700px" style=""/>
+        </div>
+        
+      </section>
+      
+      <section class="description-bar" style="border-radius: 50px; font-weight:500;">
+        
+        <p style="font-weight: 500;">Ade-Tade Hospital is a general practice hospital located in Akure, Ondo State, Nigeria. The hospital was established in 1984 and has since provided high quality healthcare for residents of Akure and its environs.</p>
+        
+        <img src="images/background.jpg" alt="Ade-Tade Hospital" width="300px" />
+
+<p style="font-weight: 500;">Our <a style="text-decoration:none;" href="services.html">services</a> include 24hr emergency care and general surgical & medical care for all ages. We also provide personalized care for women.</p>
+
+<p style="font-weight: 500;">Consistent with our firm belief in prevention and early diagnosis, we offer several comprehensive screening and counseling services for chronic diseases and conditions.
+Whether you are visiting as an out-patient or spending days in our facility, we are committed to making you feel comfortable and well taken care of. This commitment is seen in our core services and our culture of continuous improvement. </p>
+      </section>
+      
+      
+      <section id="leader-section" style="">
+        
+        <div class="bio">
+          
+          <div class="txt-wrapper" style="display: inline-block;">
+            <h1 style="margin-bottom: 30px;"><span class="underlined">Meet our founder an</span>d medical director
+            <span class="name" style="position: relative; left: 9%; font-family: Montserrat; font-weight: 400; color: #005FA3;">Dr. Adeyemo O. Tade MBChB, DMP, FAGP</span></h1>
+            
+            <p>To the thousands of patients he has treated over the years, Dr. Tade embodies the combination of knowledge, skill, and compassion. He is a general physician with more than 40 years of experience devoted to the medical and surgical care of the whole family. He received his medical degree from the University of Ibadan, Medical School in 1977.</p>
+            
+            <img src="images/md.jpg" alt="Dr. Adeyemo Tade, hospital founder" style="display: inline-block;"/>
+            
+            <p>Amongst other past leadership roles, he was the president of the Association of General and Private Medical Practitioners of Nigeria (AGPMPN) from 2006 to 2010, and pro tem secretary of the World Organization of Family Doctors, (WONCA) Africa region from 2007 to 2010. He has been the Chairman of the Audit Committee of the Ondo State branch of the Nigerian Medical Association, NMA, for more than three decades.
+
+</p>
+            
+            <p>Dr. Tade is known for his expertise, service to the community, and contributions to the medical society. He is the recipient of many awards and recognitions including the ‘Fellow of the Association of General Practitioners’, (FAGP), and the ’Distinguished Medical Practitioner’ (DMP) awards conferred by the AGPMPN, and the 'long service Award' conferred by the NMA. He was admitted into Ondo State NMA 'Roll of Honour' in 2004.
+
+</p>
+
+            <p>
+              Dr. Tade has also made several contributions to the advancement of the public health goals of Ondo State, for instance, in the areas of mass immunization, family planning, and chronic disease prevention.  His exemplary work ethic is reflected in the high quality of services provided at Ade-Tade Hospital.
+
+            </p>
+            
+            
+          </div>
+          
+          
+        </div>
+        
+        
+        
+         <div class="bio">
+          
+          <div class="txt-wrapper" style="position: relative; bottom: 12vh;">
+            <h1 style="margin-bottom: 30px;"><span class="underlined" >Meet our m</span>atron
+            <span class="name" style="position: relative; left: 9%;  font-family: Montserrat; font-weight: 400; color: #005FA3;">Mrs. Wemimo R. Tade, RN</span></h1>
+            
+            <p>Mrs. Wemimo R. Tade is a registered nurse/midwife and retired principal nursing officer. She has over 40 years of nursing experience and attained the highest level of core clinical and administrative responsibilities before retiring from civil service.</p>
+            
+             <img src="images/chiefmatron.jpg" alt="Mrs. Wemimo Tade, chief matron" style="display: inline-block;"/>
+            
+            <p>In addition to her wealth of experience in all areas of clinical nursing, she has special training and is passionate about reproductive health. She is also an advocate for self-sustainability as an important ingredient for women’s health. As part of our women’s health program, she provides counseling for self-empowerment.</p>
+            
+            <p>When she is not busy in the hospital, you might find her farming or teaching classes on small-scale agriculture and entrepreneurship.</p>
+
+          </div>
+          
+         
+        
+        </div>
+        
+        
+      </section>
+      
+      <section id="staff-section">
+        <h1 class="level-2-hdr" style=" font-family: Montserrat; text-align: center; font-weight: 300; ">O<span>ur Sta</span>ff</h1>
+        
+        <div style="display: flex; ">
+          <img id="staff-group-1" src="images/staff_group_1.jpg" alt="Ade-Tade Hospital staff." />
+          <img id="staff-group-2" src="images/staff_group_2.jpg" alt="Ade-Tade Hospital staff." />
+        </div>
+      </section>
+      
+      
+      
+     
+     
+     
+     
+     
+    </main>
+    
+    
+    
+    
+    <footer>
+      <div id="contact-options">
+        <div id="phone"><p>Call us:</p><p> 0806-635-8086</p></div>
+        
+        <div id="address">Find us:<p style="color: #CC0000;">5-7 Ade Tade Street,</p><p style="color: #CC0000;">Okuta Elerinla Estate, Opposite Ilesha garage</p><p style="color: #CC0000;">Akure, Ondo State</p>
+       </div>
+    <!--   <div id="map">-->
+	   <!--  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1978.862198144515!2d5.166988144776901!3d7.2721701416479725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10478f1974bbffa5%3A0x3142d29ec5e0571e!2sADE-TADE%20HOSPITAL!5e0!3m2!1sen!2sus!4v1630640517808!5m2!1sen!2sus" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>-->
+	   <!--</div>-->
+	   
+	   <!--<div>Email adetadexxx@xxxx.com</div>-->
+	    </div>
+	    
+	   <small style="float: left;position: relative;top: 30px;">&copy;Copyright 2021, Ade Tade Hospital, Akure</small>
+	   <small style="float: right;position: relative;top: 30px;"></small>
+    </footer>
+    
+    <script>
+   
+    function menuFunction() {
+      var menu = document.getElementById("menuLinks");
+      if (menu.style.display === "none"){
+        menu.style.display="flex";
+      }
+     
+      else{
+        menu.style.display="none";
+      }
+     
+    }
+     
+    </script>
+    
+  </body>
+</html>
