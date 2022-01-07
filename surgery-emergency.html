@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Surgery & Emergency | Ade-Tade Hospital</title>
+    <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--for responsive design-->
+	  <meta name="author" content="">
+    <meta name="description" content="Treatment of surgical & severe or life-threatening conditions in a compassionate environment.">
+    <link type="text/css" rel="stylesheet" href="general.css"/>
+    <!--<link type="text/css" rel="stylesheet" href="services-format.css"/>-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link name="keywords" content="surgery, surgical care,emergency, antenatal care, hospital in Akure, clinic in Akure, doctor in Akure, treatment, open 24 hours">
+    <link rel="icon" href="images/favicon.jpeg" type="image/x-icon">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans:wght@400&family=Urbanist:wght@300;400;500&family=Montserrat:wght@100;200;300;400&family=Roboto:wght@300&family=Outfit:wght@100;200;400&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=PT+Sans&display=swap');
+      
+       nav>div>span{
+        font-size: 10px;
+        /*border:1px solid green;*/
+      }
+      
+      .landing div{
+        display: flex;
+      }
+      
+      .landing-text{
+        font-size:3vw;
+        position:relative;
+        top:10vh;
+        left:6vw;
+        color: #000;
+        font-weight: 400;
+        text-align: center;
+        line-height: 10vh;
+      }
+    
+      
+      .main-section{
+        width:80vw;
+        /*background-color:#34a0a4;*/
+        margin:auto;
+        /*border:1px solid red;*/
+        
+      }
+      
+      .main-section>div{
+        width:80vw;
+        /*background-color:#34a0a4;*/
+        margin:auto;
+      }
+      
+      .main-section h2{
+    width:76vw;
+    text-align: center;
+    background-color:#D8E9F1;
+    padding:2vh 2vw;
+    
+      }
+      
+      .main-section p{
+        /*border:1px solid red;*/
+        width:70vw;
+        margin:auto;
+      }
+      
+      #dmp{
+        width:20%;
+        margin-left:30vw;
+        margin-top:1vh;
+        
+      }
+      
+      #location{
+        width:50vw;
+        margin:3vh 15vw;
+        
+      }
+      
+      
+        .landing img{
+        width:650px;
+      }
+      
+      .page-summary{
+         font-size: 20px;
+         font-weight: 300;
+         color: #1d3557;
+         font-family: Outfit;
+         
+      }
+      
+      
+      
+      #surgery ul{
+        display: inline-block;
+        line-height: 30px;
+        margin:5vw;
+        /*border:1px solid red;*/
+        }
+      
+           /*Responsive*/
+     
+  /* X-Small devices (portrait phones,(use surface duo) , less than 576px)*/
+   @media (max-width: 575.98px) {
+    
+  header>span{
+    font-size:0.6em;
+     position:relative;
+     
+  }
+    
+  nav>div>span{
+        font-size:0.5em;
+       
+        /*border:1px solid red;*/
+      }
+  
+  .landing{
+   height:25vh;
+  }
+   
+ 
+  .landing img{
+    width:50vw;
+    position:relative;
+    /*right:5vw;*/
+    
+  }
+
+ .landing-text{
+   padding-top:1vh;
+   font-size:0.8em;
+   line-height:20px;
+   background-color:#eaeaea;
+   box-shadow:3px 3px 10px #E3D2D4;
+   position:relative;
+   left:0;
+   top:6vh;
+   height:10vh;
+  }
+ 
+ .landing-text span{
+   display:none;
+ }
+ 
+ .page-summary{
+   font-size:0.8em;
+   width:90vw;
+   margin:auto;
+   text-align:center;
+   line-height:20px;
+   /*border:1px solid red;*/
+ }
+ 
+  .main-section{
+    
+  /*width:100vw;*/
+  margin:5vh auto;
+  /*border:1px solid green;*/
+  
+  }
+  
+  .main-section div{
+    flex-direction:column;
+  }
+  
+  
+  .main-section img{
+    width:50%;
+  }
+  
+  
+  
+  .main-section p{
+    font-size:2.5vw;
+    padding:0 3.2vw;
+  }
+  
+  .main-section h2{
+    font-size:3.5vw;
+    width:76vw;
+    text-align: center;
+    /*margin: auto;*/
+    /*border: 1px solid red;*/
+  }
+  
+  #surgery{
+    padding-top:3vh;
+    width:80vw;
+    background-color: #D8E9F1;
+    margin:2vh auto;
+
+  }
+  
+  
+  
+  #emergency{
+    padding:3vh 0;
+    width:80vw;
+    background-color: #D8E9F1;
+    margin:4vh auto;
+
+  }
+  
+  
+  .main-section ul li{
+  /*margin: 5% 0;*/
+  color: #084E5E;
+  font-size: 2.5vw;
+  }
+  
+  
+  #service-nav div{
+  width: 20vw;
+  height: 20vh;
+  font-size:1.6vw;
+  background-size: 75%;
+  }
+  
+  footer>div{
+  font-size:2vw;
+  /**{border:1px solid red;}*/
+  }
+     
+}
+  
+ 
+ 
+   
+ /*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) and (min-width: 576px){
+ 
+ 
+header>span{
+    font-size:0.6em;
+     position:relative;
+     top:5vh;
+     z-index: 1;
+     
+  }
+    
+  nav>div>span{
+        font-size:0.5em;
+       
+        /*border:1px solid red;*/
+      }
+ 
+  
+  .landing{
+   height:50vh;
+  }
+   
+ 
+  .landing img{
+    width:40vw;
+    position:relative;
+    /*right:5vw;*/
+    
+  }
+
+ .landing-text{
+   
+   font-size:1em;
+   line-height:25px;
+   background-color:#eaeaea;
+   box-shadow:3px 3px 10px #E3D2D4;
+   position:relative;
+   left:5vw;
+   top:5vh;
+   height:20vh;
+   padding:0 2vw;
+   /*border:1px solid red;*/
+  }
+ 
+ .landing-text span{
+   display:none;
+ }
+ 
+ .page-summary{
+ 
+   padding-top:4vh;
+   padding-left:5vw;
+   font-size:0.9em;
+   width:80vw;
+   margin:auto;
+   text-align:center;
+   line-height:15px;
+ }
+ 
+  .main-section{
+  /*width:100vw;*/
+  margin:auto;
+  
+  }
+  
+  .main-section div{
+    flex-direction:column;
+  }
+  
+  
+  .main-section img{
+    width:40%;
+  }
+  
+  
+  
+  .main-section p{
+    font-size:1.75vw;
+    padding:0 3.2vw;
+  }
+  
+  .main-section h2{
+    font-size:3.5vw;
+    width:76vw;
+    text-align: center;
+  }
+  
+  .main-section ul li{
+  /*margin: 5% 0;*/
+  color: #084E5E;
+  font-size: 1.75vw;
+  }
+  
+  #surgery{
+    padding-top:3vh;
+    width:80vw;
+    background-color: #D8E9F1;
+    margin:2vh auto;
+
+  }
+  
+  
+  
+  #emergency{
+    padding:3vh 0;
+    width:80vw;
+    background-color: #D8E9F1;
+    margin:4vh auto;
+
+  }
+  
+  #service-nav div{
+  width: 20vw;
+  height: 20vh;
+  font-size:1.2vw;
+  background-size: 75%;
+  }
+  
+  footer>div{
+  font-size:2vw;
+  /**{border:1px solid red;}*/
+  }
+     
+}
+        
+
+      /*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) and (min-width: 768px) {
+   
+ header>span{
+    font-size:0.8em;
+     position:relative;
+     top:-2vh;
+     z-index: 1;
+     padding: 1vh 0;
+     
+  }
+    
+  nav>div>span{
+        font-size:0.5em;
+        position: relative;
+        top:2vh;
+       
+        /*border:1px solid red;*/
+      }
+ 
+  
+  .landing{
+   height:35vh;
+  }
+   
+ 
+  .landing img{
+    width:60vw;
+    position:relative;
+    /*right:5vw;*/
+    
+  }
+
+ .landing-text{
+   
+   font-size:1.5em;
+   /*line-height:30px;*/
+   background-color:#eaeaea;
+   box-shadow:3px 3px 10px #E3D2D4;
+   position:relative;
+   left:1vw;
+   top:5vh;
+   height:20vh;
+   padding:0 2vw;
+   /*border:1px solid red;*/
+  }
+ 
+ .landing-text span{
+   display:none;
+ }
+ 
+ .page-summary{
+ 
+   padding-top:4vh;
+   padding-left:5vw;
+   font-size:0.9em;
+   width:80vw;
+   margin:auto;
+   text-align:center;
+   line-height:15px;
+ }
+ 
+  .main-section{
+  /*width:100vw;*/
+  margin:auto;
+  
+  }
+  
+  .main-section div{
+    flex-direction:column;
+  }
+  
+  
+  .main-section img{
+    width:40%;
+  }
+  
+  
+  
+  .main-section p{
+    font-size:1.75vw;
+    padding:0 3.2vw;
+  }
+  
+  .main-section h2{
+    font-size:3vw;
+    width:76vw;
+    text-align: center;
+  }
+  
+  .main-section ul li{
+  /*margin: 5% 0;*/
+  color: #084E5E;
+  font-size: 1.75vw;
+  }
+  
+  
+   .main-section ul{
+     margin-left:10vw;
+   }
+  
+  #surgery{
+    padding-top:3vh;
+    width:80vw;
+    background-color: #D8E9F1;
+    margin:2vh auto;
+
+  }
+  
+  
+  
+  #emergency{
+    padding:3vh 0;
+    width:80vw;
+    background-color: #D8E9F1;
+    margin:4vh auto;
+
+  }
+  
+  #service-nav div{
+  width: 20vw;
+  height: 20vh;
+  font-size:1.2vw;
+  background-size: 75%;
+  }
+  
+  footer>div{
+  font-size:2vw;
+  /**{border:1px solid red;}*/
+  }
+     
+}
+   
+      
+      /*// Large devices (desktops, less than 1200px)*/
+@media screen and (max-width: 1199.98px) and (min-width: 992px) {
+     
+ header>span{
+    /*border:1px solid red;*/
+  }
+  
+  .landing{
+   height: 60vh;
+  }
+   
+ 
+  .landing img{
+    width:47vw;
+    position:relative;
+    /*right:5vw;*/
+    
+  }
+
+ .landing-text{
+   
+   font-size:1.5em;
+   /*line-height:25px;*/
+   background-color:#eaeaea;
+   box-shadow:3px 3px 10px #E3D2D4;
+   position:relative;
+   left:5vw;
+   top:10vh;
+   height:20vh;
+   padding:0 2vw;
+  }
+ 
+ .landing-text span{
+   display:none;
+ }
+ 
+ .page-summary{
+ 
+   padding-top:4vh;
+   font-size:1em;
+   margin:auto;
+   text-align:center;
+ }
+ 
+  .main-section{
+  /*width:100vw;*/
+  margin:auto;
+  
+  }
+  
+  .main-section div{
+    flex-direction:column;
+  }
+  
+  
+  .main-section img{
+    width:60%;
+  }
+  
+  
+  
+  .main-section p{
+    font-size:1.2vw;
+    padding:0 3.2vw;
+  }
+  
+  .main-section h2{
+    font-size:2vw;
+    padding-left:5vw;
+  }
+  
+   .main-section ul{
+     margin-left:10vw;
+   }
+  
+  
+  .main-section ul li{
+  /*margin: 5% 0;*/
+  color: #084E5E;
+  font-size: 1.2vw;
+  }
+  
+  
+  #service-nav div{
+  width: 20vw;
+  height: 20vh;
+  font-size:1vw;
+  }
+  
+  
+  
+  footer>div{
+  font-size:1vw;
+  /**{border:1px solid red;}*/
+  }
+     
+}
+      
+
+
+
+      
+    </style>
+  </head>
+  
+  <body>
+   <header>
+      <!--<section style="height: 20px; background-color: #060410;"></section>-->
+      <nav>
+        <div>
+          <a href="index.html"><img src="images/logofinal.png" alt="logo"/></a>
+          <span style="">5-7 Ade Tade Street, Okuta Elerinla Estate, Opposite Ilesha garage <br><b style="color: #ED2939">Call us: </b>0806-635-8086</span>
+          <cap>Ade-Tade Hospital, <b>Akure</b></cap>
+        </div>
+        <a onclick="menuFunction()" href="javascript:void(0);"><i class="material-icons">menu</i></a>
+        <ul id="menuLinks">
+         
+          <li><a href="index.html">Home</a></li>
+         
+          <li>
+           
+          <a href="about-us.html">About Us</a>
+           
+           
+          </li>
+         
+         
+          <li>
+            <div class="dropdown-wrapper">
+              <a href="services.html">Services</a>
+              <i class="material-icons" style="color: #495057; position: relative; top: 0.9vh;">arrow_drop_down</i>
+                <ul>
+                  <span class="m-wrap">
+                    <div>
+                      <li class="description">Our services are targeted to your individual needs.</li>
+                    </div>
+                     
+                    <div class="main-menu">
+                      <li><a href="general-medical-services.html">General Medical Services</a></li>
+                      <li><a href="womens-health.html">Women's Health</a></li>
+                      <li><a href="surgery-emergency.html">Surgery & Emergency</a></li>
+                    </div>
+                  </span>
+                </ul>
+              </div>
+          </li>
+         
+         
+          <li>
+            <div class="dropdown-wrapper">
+              <a  href="patient-resources.html">Patient Resources</a>
+              <i class="material-icons" style="color: #495057; position: relative; top: 0.9vh;">arrow_drop_down</i>
+                <ul>
+                  <span class="m-wrapII">
+                    <div>
+                      <li class="description">Get helpful information to prepare for your visit.</li>
+                    </div>
+                   
+                    <div class="main-menu">
+                      <li><a href="patient-resources.html#covid19">COVID-19 information</a></li>
+                      <li><a href="patient-resources.html#registration">Registration</a></li>
+                      <li><a href="patient-resources.html#visiting">Visiting a patient</a></li>
+                      <li><a href="patient-resources.html#payment">Payment procedure</a></li>
+                    </div>
+                  </span>
+                </ul>
+              </div>
+          </li>
+         
+          <li><div class="dropdown-wrapper"><a href="adetadeblog.html">Blog</a></div></li>
+         
+          <li>
+            <div class="dropdown-wrapper">
+              <a href="articles.html">Health Education</a>
+              <i class="material-icons" style="color: #495057; position: relative; top: 0.9vh;">arrow_drop_down</i>
+           
+              <ul>
+                <span class="m-wrapIII">
+                  <div>
+                    <li class="description">Learn useful tips to help you stay healthy.</li>
+                  </div>
+               
+                  <div class="main-menu">
+                    <li><a href="articles.html">Articles</a></li>
+                  </div>
+                </span>
+               
+              </ul>
+            </div>
+          </li>
+       
+        </ul>
+       
+      </nav>
+      <span>Ade-Tade Hospital, General Practice Hospital in Akure</span>
+    </header>
+    
+    <main>
+      <section class="landing">
+
+          <div style="display: flex;">
+            <img src="images/gloved_hands_services.png" alt="Gloved hands and star of life."/>
+          
+        <h1 class="landing-text" style="">Surgery & Emergency services<span><br>at<br>Ade-Tade Hospital</span></h1>
+            
+            
+          </div>
+      </section>
+      
+      <section style="text-align: center; line-height: 40px; border-bottom: 1px solid #eaeaea; padding: 2%">
+        <h3 class="page-summary" style="">Our compassionate team is here to support you and take care of you during unexpected and often frightening health events.</h3>
+      </section>
+      
+      
+      
+      
+      <section class="main-section">
+        
+         
+        <div id="surgery">
+          
+          <h2>Surgery</h2>
+          
+          <p>We understand that learning that you need surgery can bring a lot of worries. That is why we make sure to explain what to expect before, during, and after your procedure, so that you can be prepared.</p>
+        
+        <img src="images/dmpaward.jpg" alt="Adeyemo Tade in Distinguished Medical Practicioner's Gown."  id="dmp" style=""/>
+          <p>
+            We have over 40 years of experience and have successfully performed a wide variety of surgeries including:</p>
+            
+          <ul>
+            <li>Appendix removal</li>
+            
+            <li>Hernia repair</li>
+            
+            <li>Skin grafting</li>
+            
+            <li>Wound stitching</li>
+            
+            <li>Wound debridement</li>
+            
+            <li>Treatment of burns</li>
+            
+            <li>Cesarean section</li>
+          </ul>
+          
+          <ul>
+            <li>Drainage of abscess</li>
+            
+            <li>Tendon release</li>
+            
+            <li>Breast lump removal</li>
+            
+            <li>Bone fracture repair</li>
+            
+            <li>Lipoma removal</li>
+            
+            <li>Fibroid removal</li>
+            
+            <li>Circumcision</li>
+          </ul>
+          <p>and more.</p>
+          
+          
+        </div>
+        
+       
+        
+        
+        <div id="emergency">
+          <h2 >Emergency</h2>
+        
+        <p>We are always on standby to diagnose and treat severe or life-threatening conditions.</p>
+        
+        <p>
+          We are conveniently located off Olusegun Obasanjo Way, opposite Ilesha Motor Park, only a few kilometers from the Benin-Akure-Ilesha highway.
+
+        </p>
+        
+        <p>To learn more, <b>please call us at 0806-635-8086.</b></p>
+        
+         <img src="images/googelocation.png"  alt="Ade-Tade Hospital is located off Olusegun Obasanjo Way, opposite Ilesha Motor Park, only a few kilometers from the Benin-Akure-Ilesha highway." id="location" style="display: block;"/>
+       
+        </div>
+      </section>
+      
+       <section id="service-nav">
+        <div style="background-image: url(images/nurses_taking_BP_nav.jpg); background-size:47%;"><a style="margin:1em;" href="general-medical-services.html">General Medical Services</a></div>
+        <div style="background-image: url(images/preventive_services_women.png); background-size:50%;"><a href="womens-health.html">Women's Health</a></div>
+        <div style="background-image: url(images/gloved_hands_services_nav.png); background-size:40%;"><a href="surgery-emergency.html">Surgery & Emergency</a></div>
+      </section>
+      
+      
+      
+    </main>
+    
+    <footer>
+      <div id="contact-options">
+      <div id="phone"><p>Call us:</p><p> 0806-635-8086</p></div>
+        
+        <div id="address">Find us:<p style="color: #CC0000;">5-7 Ade Tade Street,</p><p style="color: #CC0000;">Okuta Elerinla Estate, Opposite Ilesha garage</p><p style="color: #CC0000;">Akure, Ondo State</p>
+       </div>
+    <!--   <div id="map">-->
+	   <!--  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1978.862198144515!2d5.166988144776901!3d7.2721701416479725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10478f1974bbffa5%3A0x3142d29ec5e0571e!2sADE-TADE%20HOSPITAL!5e0!3m2!1sen!2sus!4v1630640517808!5m2!1sen!2sus" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>-->
+	   <!--</div>-->
+	   
+	   <!--<div>Email adetadexxx@xxxx.com</div>-->
+	    </div>
+	    
+	   <small style="float: left;position: relative;top: 30px;">&copy;Copyright 2021, Ade Tade Hospital, Akure</small>
+	   <small style="float: right;position: relative;top: 30px;"></small>
+    </footer>
+    
+    <script>
+   
+    function menuFunction() {
+      var menu = document.getElementById("menuLinks");
+      if (menu.style.display === "none"){
+        menu.style.display="flex";
+      }
+     
+      else{
+        menu.style.display="none";
+      }
+     
+    }
+     
+    </script>
+  </body>
+</html>
