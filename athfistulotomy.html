@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Blog | Ade-Tade Hospital</title>
+    
+    <meta charset="UTF-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--for responsive design-->
+	  <meta name="author" content="">
+    <meta name="description" content="">
+    <link type="text/css" rel="stylesheet" href="general.css"/>
+    <link name="keywords" content="">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ephesis">
+    
+    <link rel="icon" href="images/favicon.jpeg" type="image/x-icon">
+    
+    
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans:wght@400&family=Urbanist:wght@300;400;500&family=Montserrat:wght@300;400&family=Roboto:wght@300&family=Literata&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+      
+      @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap');
+
+      
+      main{
+        /*background-color: #F9F9F1;*/
+        background-image: url("file:///C:/Users/M/Documents/ATHBlog%20project/images/athblog.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+      }
+      
+      main section{
+        /*border: 1px solid #AFABAB;*/
+        background-color:#FFF;
+        margin-top:2vh;
+        width:60vw;
+        margin:auto;
+      }
+      
+      
+      main a{
+        text-decoration:none;
+        color:black;
+      }
+      
+      .athblogselectcases_pageheader{
+        width:80%;
+        margin:auto;
+        padding-top:1%;
+        font-size:2em;
+        text-shadow:1px 1px #0795 ;
+        text-align:center;
+        font-family: "Arial Narrow", Arial, sans-serif;
+        /*border: 1px solid blue;*/
+      }
+      
+      
+      .select-cases{
+        text-shadow:none;
+      }
+      
+      .stylishblog{
+        color:;
+        font-family: 'Ephesis', serif;
+        font-size:0.75em;
+      }
+      
+      
+      .athfistulotomy_post_tittle{
+        width:80%;
+        margin:auto;
+        padding:0.5%;
+        font-size:2em;
+        text-align:center;
+        font-family: "Arial Narrow", Arial, sans-serif;
+        /*background-color:rgb(111, 143, 175, 0.7);*/
+        box-shadow:2px 2px 5px #9fb4c9;
+        border: 2px solid #AFABAB;
+      }
+      
+      
+      .athfistulotomy_post_tittle_subheading{
+        font-size:0.5em;
+      }
+      
+      .post_author_div{
+        /*border: 1px solid #AFABAB;*/
+        width:50%;
+        margin-left:10%;
+        
+      }
+      
+      .post_author_div img{
+        border-radius:50%;
+        height:40px;
+        width:40px;
+        float:left;
+        /*border:1px solid black;*/
+      }
+      
+      
+      .post_author{
+        font-family: "Arial Narrow", Arial, sans-serif;
+        color:#36454F;
+        font-size:0.8em;
+        padding-left:45px;
+        /*border:1px solid red;*/
+      }
+      
+      
+      .athfistulotomy_post_img{
+        width:50%;
+        margin:auto;
+        /*margin-bottom:30vh;*/
+        /*border:1px solid red;*/
+      }
+      
+      .athfistulotomy_post_img img{
+        display:block;
+        /*displayed as block element to be able to use margin property*/
+        width:50%;
+        margin:auto;
+        /*border:1px solid red;*/
+      }
+      
+      .athfistulotomy_textblock{
+        
+        line-height: 1.8em;
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+      
+      .diagnosis{
+        /*border:1px solid blue;*/
+        font-family: "Literata", Times, serif;
+        text-align:center;
+        width:80%;
+        margin:auto;
+        font-size: 2.8em;
+        
+      }
+      
+      .athfistulotomy_popout_block1{
+        background-color: #0795;
+        color: #36454F;
+        width:70%;
+        margin:auto;
+        line-height: 1.85em;
+        font-size: 0.95em;
+        /*font-weight:bold;*/
+        font-family: calibri;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-top:1%;
+        padding-bottom:1%;
+        box-shadow:2px 2px 5px rgb(111, 143, 175, 0.5);
+      }
+      
+      
+      
+      .athfistulotomy_popout_block2{
+        background-color: #0795;
+        color: #000;
+        width:50%;
+        margin:auto;
+        line-height: 1.85em;
+        text-align:center;
+        font-size: 0.95em;
+        font-weight:bold;
+        font-family: calibri;
+        /*padding: 1%;*/
+        border-radius:5%;
+        box-shadow:2px 2px 5px rgb(111, 143, 175, 0.5);
+      }
+      
+      
+      
+      .in-page-navigation{
+        /*border:1px solid red;*/
+        text-align:center;
+        
+      }
+      
+      
+      .in-page-navigation a{
+        color:rgb(111, 143, 175);
+        font-weight:bold;
+      }
+        
+      
+      #fistulotomyprocedure_section{
+        /*border:1px solid #AFABAB;*/
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size:1.2em;
+      }
+      
+      
+      figure{
+       border:1px solid #AFABAB;
+       width:45%;
+       margin:auto;
+       padding: 1%;
+      }
+      
+     figcaption {
+       /*width:50%;*/
+       /*margin:auto;*/
+        background-color: #AFABAB;
+        /*color: white;*/
+        /*font-style: italic;*/
+        font-size:0.7em;
+        padding: 1%;
+        
+      }
+          
+      .references_div{
+       padding-left: 5%;
+        padding-right: 5%;
+      }
+      
+      
+      
+      
+      
+      
+             /*Responsive design for navigation*/
+     
+  /* X-Small devices (portrait phones,(use surface duo) , less than 576px)*/
+   @media (max-width: 575.98px) {
+    
+  header>span{
+    font-size:0.6em;
+     position:relative;
+     
+  }
+    
+  nav>div>span{
+        font-size:0.5em;
+       
+        /*border:1px solid red;*/
+      }
+      
+   }
+     
+ /*// Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) and (min-width: 576px){
+ 
+ 
+header>span{
+    font-size:0.6em;
+     position:relative;
+     top:5vh;
+     z-index: 1;
+     
+  }
+    
+  nav>div>span{
+        font-size:0.5em;
+       
+        /*border:1px solid red;*/
+      }
+      
+}
+  
+      /*// Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) and (min-width: 768px) {
+   
+ header>span{
+    font-size:0.8em;
+     position:relative;
+     top:-2vh;
+     z-index: 1;
+     padding: 1vh 0;
+     
+  }
+    
+  nav>div>span{
+        font-size:0.5em;
+        position: relative;
+        top:2vh;
+       
+        /*border:1px solid red;*/
+      }
+ 
+}
+
+
+       /*// Large devices (desktops, less than 1200px)*/
+@media screen and (max-width: 1199.98px) and (min-width: 992px) {
+     
+ header>span{
+    /*border:1px solid red;*/
+  }
+  
+}
+
+
+  /*Responsive design for main content    */
+       @media (max-width: 991.98px){
+        
+        main section{
+        /*border: 1px solid red;*/
+        width:95vw;
+        margin:auto;
+        font-size:0.9em;
+        }
+        
+        .athblogselectcases_pageheader{
+        width:80%;
+        margin:auto;
+        padding-top:4%;
+        font-size:2em;
+        text-align:center;
+        font-family: "Arial Narrow", Arial, sans-serif;
+        /*border: 1px solid blue;*/
+      }
+        
+      .athfistulotomy_post_tittle{
+        width:80%;
+        margin:auto;
+        padding:1%;
+        font-size:2em;
+        text-align:center;
+        font-family: "Arial Narrow", Arial, sans-serif;
+        /*border: 1px solid blue;*/
+      }
+      
+      .post_author_div{
+        /*border: 1px solid #AFABAB;*/
+        width:80%;
+        margin-left:10%;
+      }
+      
+      .post_author_div img{
+        border-radius:50%;
+        height:40px;
+        width:40px;
+        float:left;
+        /*border:1px solid red;*/
+      }
+      
+      
+      .post_author{
+        font-family: "Arial Narrow", Arial, sans-serif;
+        color:#36454F;
+        font-size:0.8em;
+        padding-left:45px;
+        /*border:1px solid red;*/
+      }
+        
+      figure{
+       border:1px solid #AFABAB;
+       width:55%;
+       margin:auto;
+       padding: 1%;
+      }
+      
+     figcaption {
+       /*width:50%;*/
+       /*margin:auto;*/
+        background-color: #AFABAB;
+        /*color: white;*/
+        /*font-style: italic;*/
+        font-size:0.6em;
+        padding: 1%;
+        
+      }
+             
+        
+        
+  }
+    </style>
+  </head>
+  
+  <body>
+    <header>
+      <!--<section style="height: 20px; background-color: #060410;"></section>-->
+      <nav>
+        <div>
+          <a href="index.html"><img src="images/logofinal.png" alt="logo"/></a>
+          <span style="font-size: 10px;">5-7 Ade Tade Street, Okuta Elerinla Estate, Opposite Ilesha garage <br><b style="color: #ED2939">Call us: </b>0806-635-8086</span>
+          <cap>Ade-Tade Hospital, <b>Akure</b></cap>
+        </div>
+        <a onclick="menuFunction()" href="javascript:void(0);"><i class="material-icons">menu</i></a>
+        <ul id="menuLinks">
+         
+          <li><a href="index.html">Home</a></li>
+         
+          <li>
+           
+          <a href="about-us.html">About Us</a>
+           
+           
+          </li>
+         
+         
+          <li>
+            <div class="dropdown-wrapper">
+              <a href="services.html">Services</a>
+              <i class="material-icons" style="color: #495057; position: relative; top: 0.9vh;">arrow_drop_down</i>
+                <ul>
+                  <span class="m-wrap">
+                    <div>
+                      <li class="description">Our services are targeted to your individual needs.</li>
+                    </div>
+                     
+                    <div class="main-menu">
+                      <li><a href="general-medical-services.html">General Medical Services</a></li>
+                      <li><a href="womens-health.html">Women's Health</a></li>
+                      <li><a href="surgery-emergency.html">Surgery & Emergency</a></li>
+                    </div>
+                  </span>
+                </ul>
+              </div>
+          </li>
+         
+         
+          <li>
+            <div class="dropdown-wrapper">
+              <a  href="patient-resources.html">Patient Resources</a>
+              <i class="material-icons" style="color: #495057; position: relative; top: 0.9vh;">arrow_drop_down</i>
+                <ul>
+                  <span class="m-wrapII">
+                    <div>
+                      <li class="description">Get helpful information to prepare for your visit.</li>
+                    </div>
+                   
+                    <div class="main-menu">
+                      <li><a href="patient-resources.html#covid19">COVID-19 information</a></li>
+                      <li><a href="patient-resources.html#registration">Registration</a></li>
+                      <li><a href="patient-resources.html#visiting">Visiting a patient</a></li>
+                      <li><a href="patient-resources.html#payment">Payment procedure</a></li>
+                    </div>
+                  </span>
+                </ul>
+              </div>
+          </li>
+         
+          <li><div class="dropdown-wrapper"><a href="adetadeblog.html">Blog</a></div></li>
+         
+          <li>
+            <div class="dropdown-wrapper">
+              <a href="articles.html">Health Education</a>
+              <i class="material-icons" style="color: #495057; position: relative; top: 0.9vh;">arrow_drop_down</i>
+           
+              <ul>
+                <span class="m-wrapIII">
+                  <div>
+                    <li class="description">Learn useful tips to help you stay healthy.</li>
+                  </div>
+               
+                  <div class="main-menu">
+                    <li><a href="articles.html">Articles</a></li>
+                  </div>
+                </span>
+               
+              </ul>
+            </div>
+          </li>
+       
+        </ul>
+       
+      </nav>
+      <span>Ade-Tade Hospital, General Practice Hospital in Akure</span>
+    </header>
+   
+   
+    <main>
+
+      <section>
+        <div class="athblogselectcases_pageheader"><a href="adetadeblog.html"><b>ATH</b><span class="stylishblog">Blog</span></a><span class="select-cases"> -Select Cases</span></div>
+        <div><br></div>
+        <div><br></div>
+        <div><br></div>
+        
+        <div class="athfistulotomy_post_tittle"><a href="athfistulotomy.html"><b>Repair of a Low Anal Fistula </b><br><span class="athfistulotomy_post_tittle_subheading">—a painful, often embarrassing condition.</span></a></div>
+        <div><br></div>
+        
+        
+        <div class="post_author_div">
+          <a href="about-us.html#leader-section"><img src="images/post_author_drtade_img.jpg" alt="" width="8%" height=""></a>
+          <div class="post_author"><p><br><b>Author:</b> Dr. Adeyemo Tade, MBChB, DMP, FAGP</p></div>
+        </div>
+      
+        
+        <div><br></div>
+        
+       
+
+        
+        <div><br></div>
+        <div><br></div>
+        <div><br></div>
+        <div class="athfistulotomy_textblock"><p>An elderly man, a little over sixty years of age, presented primarily with a chronic history of discharge from his perineal area. He had tried several remedies for about six weeks prior to presentation. A thorough history and physical examination, particularly of his perineum, as well as digital rectal examination helped to rule out other conditions and narrow down the working diagnosis to “Fistula-in-ano”. The most obvious finding was the presence of a discharging sinus about 15cm inferior-lateral to his anal orifice. There was no swelling around the sinus.</p></div>
+        
+        
+        <div class="diagnosis">Impression: Fistula-in-ano</div>
+        
+        <div><br></div>
+        
+        <div class="in-page-navigation"><a href="#fistulotomyprocedure_section">Jump to the procedure</a></div>
+        
+         <div class="athfistulotomy_post_img"><a href="#fistulotomyprocedure_section"><img  src="images/surgeryphoto.jpg" alt="fistulotomy" width="50%" height=""></a></div>
+        
+        <div><br></div>
+        
+        <div class="athfistulotomy_popout_block1"><p>A fistula-in-ano (or anal fistula) is an abnormal tract that connects an opening inside the anal canal to an opening in the perianal skin.  There may be a foul-smelling discharge and pain. Both symptoms are potential sources of discomfort and stigma. Surgeons around the world agree that the treatment of fistula-in-ano still remains very challenging (Poggio, 2022).  However, the treatment of choice is surgery, the goals of which are to : (a) Drain any abscess and (b) Remove the fistula (tract) while taking measures to preserve anal sphincter function and avoid recurrence of the fistula.  <br> There are two varieties of Fistula-in-ano, High and Low, depending on whether the opening into the ano-rectal canal is above or below the Levator Ani muscle. Some classifications also use the part of the anal sphincter involved — upper two-third of anal sphincter (high fistula) or lower third of anal sphincter (low fistula). Differentiation of these two types can be by a simple dye test. Two pieces of gauze are placed in the ano-rectal canal, one above and one below the sphincter. Gentian Violet ((GV) is then injected through the external opening of the fistula (Farquharson et al., 2005). The stained piece of gauze indicates the location of the internal opening. </p>
+        </div>
+        <div><br></div>
+        <div class="athfistulotomy_textblock"><p>Since the low variety of anal fistula is the preponderant type, I always prepare any patient who has anal fistula for a <b>fistulotomy</b> (a surgical procedure to treat low fistulas) which will be done after first confirming the type of fistula by examination under anesthesia during the same surgery. This saves the patient the hassles of two separate procedures. I however let the patient know of the small possibility that the fistula might turn out to be the high type which would necessitate aborting the procedure and making a referral to a specialist instead.</p></div>
+        <div><br></div>
+        
+        <div class="athfistulotomy_popout_block2"><p>Fistulotomy involves laying open the fistula tract</p></div>
+        
+        <div><br></div>
+        <div id="fistulotomyprocedure_section"><b>The Procedure</b></div>
+        <div><br></div>
+        <div class="athfistulotomy_textblock"><p>During this patient's surgical procedure (which I usually do under general anesthesia to minimize cost for the patient, and because the alternative - spinal anesthesia, will cause loss of sphincter tone and reduced ability to visualize the length of the anal sphincter), I introduced a thin probe through the external opening of the sinus and pushed it towards the anal canal where my finger therein could readily feel the probe and the internal opening of the fistula in the anal canal. I then brought the end of the probe in the anal canal out through the anal orifice. </p></div>
+        
+        <div><br></div>
+        <figure><img src="images/analfistula.jpg" alt="Figure 1: Schematic showing anal fistula" style="width:100%"><figcaption>Fig 1: Schematic showing the path of a probe (blue line) through a low anal fistula, pre-op. With patient in lithotomy position, gloved fingers part the buttocks to allow visualization of the anal opening as well as the external opening of the fistula. The probe passes through the external opening in the skin, through the fistula tract (dotted lines) and internal opening into the anal canal; and out through the anus.</figcaption></figure>
+        
+        <div><br></div>
+        
+        <div class="athfistulotomy_textblock"><p>Thereafter, I cut out all the tissue between the anus and the external opening of the fistula, practically excising the fistula track. *(Method from Farquharson's textbook of operative surgery).</p></div>
+        
+        <div><br></div>
+        <figure><img src="images/fistulotomy.jpg" alt="Figure 2: Fistula tract laid open" style="width:100%"><figcaption>Fig 2:  Patient is in lithotomy position and tilted slightly to the left. Fistula tract has been laid open.</figcaption></figure>
+        
+        <div><br></div>
+        
+        <div class="athfistulotomy_textblock"><p>The wound was packed for 48 hours., after which daily sitz bath and dry dressing were done. The patient also completed a course of antibiotics (Ceftriaxone, Doxycycline, and Flagyl).</p></div>
+        <div><br></div>
+        
+        <figure><img src="images/12daypostfistulotomy.jpg" alt="Figure 3: Day 12 post op (fistulotomy)" style="width:100%"><figcaption>Fig 3: Day 12 post-fistulotomy</figcaption></figure>
+        
+        <div><br></div>
+        
+        <div class="athfistulotomy_textblock"><p>The wound healed very well, and the patient was very happy.</p></div>
+        
+        <div><br></div>
+        <div><br></div>
+        <div><br></div>
+        <div><br></div>
+        <div class="references_div">
+        <div class="references_header"><p><b>References:</b></p></div>
+        <div><ul>
+          <li>Farquharson, M., Farquharson, E. L., & Moran, B. (2005). Farquharson's textbook of Operative General Surgery. / Margaret Farquharson and Brendan Moran. Hodder Arnold</li>
+          <li>Poggio, J. L. (2022, July 29). Fistula-in-ano. Practice Essentials, Anatomy, Etiology. Retrieved from https://emedicine.medscape.com/article/190234-overview</li>
+          <li>Rintoul, R. F., & Farquharson, E. L. (1986). Farquharson's textbook of operative surgery. Churchill Livingstone.</li>
+        </ul></div>
+        </div>
+        
+      </section>
+      
+    </main>
+    
+    
+    
+    
+    
+    <!--<footer>-->
+    <!--  <div id="contact-options">-->
+        
+    <!--   <div id="phone"><p style="color: #CC0000;">Call us:</p><p> 0806-635-8086</p></div>-->
+        
+    <!--    <div id="address"><p style="color: #CC0000;">Find us:</p><p>5-7 Ade Tade Street,</p><p>Okuta Elerinla Estate, Opposite Ilesha garage</p><p>Akure, Ondo State</p></div>-->
+        
+    <!--    <div><p><a href="form.html" style="color: #CC0000; text-decoration: none;}">Send us a message <b>here.</b></a></p></div>-->
+	   <!-- </div>-->
+	    
+	   <!--<small style="float: left;position: relative;top: 30px;">&copy;Copyright 2021, Ade Tade Hospital, Akure</small>-->
+	   <!--<small style="float: right;position: relative;top: 30px;"></small>-->
+    <!--</footer>-->
+    <script>
+   
+    function menuFunction() {
+      var menu = document.getElementById("menuLinks");
+      if (menu.style.display === "none"){
+        menu.style.display="flex";
+      }
+     
+      else{
+        menu.style.display="none";
+      }
+     
+    }
+     
+    </script>
+  </body>
+</html>

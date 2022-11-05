@@ -15,78 +15,30 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ephesis">
 
     <link rel="icon" href="images/favicon.jpeg" type="image/x-icon">
-    
-    
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans:wght@400&family=Urbanist:wght@300;400;500&family=Montserrat:wght@300;400&family=Roboto:wght@300&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Open+Sans:wght@400&family=Urbanist:wght@300;400;500&family=Montserrat:wght@300;400&family=Roboto:wght@300&family=Literata&display=swap');
       @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
       
       
       
-      
-      body{
-        overflow-x: none;
-      }
-      
-      
       main section{
-        /*border: 1px solid red;*/
-        height:80vh;
+        /*border: 1px solid #AFABAB;*/
+        /*height:150vh;*/
+        /*padding-top:1%;*/
         margin-top:2vh;
-        margin-left:20vw;
-        margin-right:20vw;
+        width:60vw;
+        margin:auto;
       }
       
-      .leftdiv{
-        float: left;
-        height:100%;
-        /*border: 1px solid blue;*/
-        width:25.1%;
-        background-color:#AFABAB;
-      }
-      
-      
-      .homepg_postlist_headerdiv{
-        /*padding:1%;*/
-        /*border: 1px solid orange;*/
-      }
-      
-      .homepg_postlist_header{
-        padding:10%;
-        margin-top:4%;
-        font-family: "Arial Narrow", Arial, sans-serif;
-        /*box-shadow:2px 2px 5px #AFABAB;*/
-        /*border: 1px solid purple;*/
-      }
-      
-      .homepg_postlist{
-        height:25%;
-        padding-top:10%;
-        padding-left:10%;
-        /*border: 2px solid green;*/
-        /*margin-bottom:8%:*/
-      }
-      
-      .middlediv{
-        float: left;
-        height:100%;
-        /*border: 1px solid blue;*/
-         width:49%;
-      }
-      
-      .blogwelcomediv{
-        height:60%;
-        margin-top:10%;
-        margin-bottom:15%;
-        font-size:;
-        /*border: 1px solid purple;*/
-      }
-      
-      .blogwelcomediv_text{
-        font-size:4em;
-        font-family: "Arial Narrow", Arial, sans-serif;
+      .start-here_blogname{
+        width:80%;
+        margin:auto;
+        padding-top:1%;
+        font-size:3em;
         text-align:center;
-        /*border: 1px solid red;*/
+        font-family: "Arial Narrow", Arial, sans-serif;
+        /*border: 1px solid blue;*/
+        
       }
       
       .stylishblog{
@@ -95,76 +47,124 @@
         font-size:0.75em;
       }
       
-      .middlediv_ctadiv{
-        text-align:center;
-        width:50%;
+      .start-here_blogname a:link{
+        text-decoration:none;
+        color:black;
+      }
+        
+      .start-here_blogname a{
+        text-decoration:none;
+        color:black;
+      }
+        
+      
+      
+      .start-here_latestpost_div{
+        /*height:40%;*/
+        width:96%;
+        padding-top:1%;
+        padding-left:2%;
+        padding-right:2%;
+        /*padding-bottom:2%;*/
         margin:auto;
-        background-color:#5786D3;
-        border: 1px solid #AFABAB;
+        border: 8px solid rgb(111, 143, 175, 0.2);
+        /*border: 6px solid #6F8FAF;*/
+       background-color:#FAF9F6;
+       
       }
       
-      .rightdiv{
-        float: left;
-        height:100%;
-        /*border: 0.5px solid #AFABAB;*/
-        /*opacity: 0.8;*/
-        box-shadow: 0 0 25px 5px #AFABAB;
-         width:25.3%;
+      
+      .start-here_latestpost_headerdiv{
+        
       }
       
-      .homepg_latestpost_headerdiv{
-        /*padding:1%;*/
+      .start-here_latestpost_header{
+        text-align:center;
+        font-size:1em;
+        width:54%;
+        /*padding:3%;*/
+        margin:auto;
+        /*border: 1px solid red;*/
+      }
+      
+      .start-here_latestpost{
+        font-size:1.7em;
+        color:#36454F;
+        text-align:center;
         font-family: "Arial Narrow", Arial, sans-serif;
-        /*border: 1px solid #AFABAB;*/
+        /*border: 1px solid red;*/
+        box-shadow:2px 2px 5px #AFABAB;
+      }
+      
+      .start-here_latestpost_subheading{
+        text-align:center;
+        font-size:0.6em;
+      }
+      
+      main a{
+        text-decoration:none;
+        color:#36454F;
+        
       }
       
        a:link {
         text-decoration: none;
-        color:black;
-      }
-      
-      
-      .homepg_latestpost_header{
-        margin-top:4%;
-        text-align:center;
-        padding:10%;
-        font-family: "Arial Narrow", Arial, sans-serif;
-        /*box-shadow:2px 2px 5px #AFABAB;*/
-        /*border: 1px solid #AFABAB;*/
-      }
-      
-      
-      
-      .homepg_latestpost_subheading{
-        font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-        font-size:0.6em;
+        color:#36454F;
         
       }
       
-     .homepg_latestpost a{
-        text-decoration: none;
-        /*color:black;*/
+      .start-here_latestpost_img{
+        width:25%;
+        margin-left:37.5%;
+        margin-top:3%;
+        /*margin-bottom:6%;*/
+        /*border:2px solid red;*/
       }
       
-      .homepg_latestpost{
-        height:25%;
+      .start-here_latestpost_trunc_text{
+        line-height: 1.6;
+        
+      }
+      
+      .start-here_bio_header{
         text-align:center;
-        font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+        font-size:1em;
+        width:54%;
+        padding-top:5px;
+        margin:auto;
+        /*border: 1px solid red;*/
+      }
+      
+      .start-here_bio_div{
+       width:96%;
+        padding-top:1%;
+        padding-left:2%;
+        padding-right:2%;
+        /*margin-top:2%;*/
+        /*border: 1px solid #AFABAB;*/
+        background-color:#FAF9F6;
+        border: 8px solid rgb(111, 143, 175, 0.2);
+        
+      }
+      
+      .start-here_bio_tittle{
+        text-align:center;
         font-size:1.2em;
-        padding-top:10%;
-        border: 1.5px solid #AFABAB;
-        border-top-left-radius:15px;
-        /*margin-bottom:10%*/
+        font-family: "Arial Narrow", Arial, sans-serif;
+        padding-top:1%;
+        padding-bottom:1%;
+        width:95%;
+        margin:auto;
+        box-shadow:2px 2px 5px #AFABAB;
       }
       
-      .homepg_latestpost_img{
-        border-bottom-right-radius:15px;
-        border: 1.5px solid #AFABAB;
+      .start-here_bio_img{
+        margin-left:35%;
+        margin-top:5%;
       }
       
       
-      
-                 /*Responsive design for navigation*/
+              /*Responsive design for navigation*/
      
   /* X-Small devices (portrait phones,(use surface duo) , less than 576px)*/
    @media (max-width: 575.98px) {
@@ -180,8 +180,8 @@
        
         /*border:1px solid red;*/
       }
+  }
       
-   }
      
  /*// Small devices (landscape phones, less than 768px)*/
 @media (max-width: 767.98px) and (min-width: 576px){
@@ -222,135 +222,55 @@ header>span{
        
         /*border:1px solid red;*/
       }
- 
- 
 }
+
+
+
        /*// Large devices (desktops, less than 1200px)*/
 @media screen and (max-width: 1199.98px) and (min-width: 992px) {
      
  header>span{
     /*border:1px solid red;*/
   }
-
+  
 }
-
-     
-     
-
- /*Responsive design for main content    */
+  
+  /*Responsive design for main content    */
        @media (max-width: 991.98px){
         
         main section{
         /*border: 1px solid red;*/
-        /*width:60vw;*/
+        width:95vw;
         margin:auto;
-        /*height:130vh;*/
+        font-size:0.9em;
         }
         
-        .leftdiv{
-        float: none;
-        height:100%;
-        /*border: 1px solid blue;*/
-        width:49%;
-        display:none;
-        margin:auto;
-        background-color:#AFABAB;
-      }
-      
-      .middlediv{
-        float: none;
-        /*border: 1px solid blue;*/
-        height:auto;
-         width:95%;
-         /*height:50%;*/
-         margin:auto;
-      }
-      
-      .blogwelcomediv{
-       /*border: 1px solid purple;*/
-       margin-bottom:1%;
-       /*height:90%;*/
-      }
-      
-      .blogwelcomediv_text{
-        font-size:4em;
+        
+        .start-here_blogname{
+        width:80%;
+        margin-top:auto;
+        padding-top:4%;
+        font-size:3em;
         text-align:center;
-        /*border: 1px solid red;*/
-      }
-      
-      .stylishblog{
-        font-size:0.75em;
-      }
-      
-      .middlediv_ctadiv{
-        text-align:center;
-        width:35%;
-        margin:auto;
-        background-color:#5786D3;
-        border: 1px solid #AFABAB;
-      }
-      
-      .rightdiv{
-        float: none;
-        /*border: 0.5px solid #D4D2D2;*/
-        box-shadow: none;
-        width:95%;
-        margin:auto;
-      }
-      
-      .homepg_latestpost_headerdiv{
-        /*padding:1%;*/
         font-family: "Arial Narrow", Arial, sans-serif;
-        /*border: 1px solid #AFABAB;*/
-      }
-      
-       a:link {
-        text-decoration: none;
-        color:black;
-      }
-      
-      .homepg_latestpost_header{
-        /*margin-top:4%;*/
-        text-align:center;
-        padding:2%;
-        font-size:1.2em;
-        font-family: "Arial Narrow", Arial, sans-serif;
-        /*border: 1px solid #AFABAB;*/
-      }
-      
-      
-      
-      .homepg_latestpost_subheading{
-        font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-        font-size:0.7em;
+        /*border: 1px solid blue;*/
         
       }
-      
-      .homepg_latestpost{
-        height:auto;
-        text-align:center;
-        font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-        font-size:1.2em;
-        padding-top:10%;
-        padding-bottom:10%;
-        border: 2px solid #AFABAB;
-        border-top-left-radius:15px;
-        /*margin-bottom:10%*/
+        
+        
+        .start-here_latestpost_div{
+        width:92%;
+        padding:3%;
+        margin:auto;
+        /*border: 1px solid #AFABAB;*/
+       background-color:#FAF9F6;
+       
       }
-      
-      .homepg_latestpost_img{
-        border-bottom-right-radius:0;
-        border: 2px solid #AFABAB;
-      }
-      
-      
-      
-      }
-      
+    }
+    
+    
       
     </style>
-    
-    
   </head>
   
   <body>
@@ -447,26 +367,39 @@ header>span{
    
    
     <main>
+
+      <section>
+        <div class="start-here_blogname"><a href="adetadeblog.html"><b>ATH</b><span class="stylishblog">Blog</span></a></div>
+        
+        <div class="start-here_latestpost_headerdiv"><p class="start-here_latestpost_header"><b>Check out our latest post:</b></p></div>
+        
+        
+        
+        <!--Create the div below for every new post-->
+        
+        <div class="start-here_latestpost_div">
+          
+        <div class="start-here_latestpost"><a href="athfistulotomy.html"><b>Repair of a Low Anal Fistula </b><br><span class="start-here_latestpost_subheading">—a painful, often embarrassing condition.</span></a></div>
+        <a href="athfistulotomy.html"><img class="start-here_latestpost_img" src="images/surgeryphoto.jpg" alt="fistulotomy" width="40%" height=""></a>
+        <div><br></div>
+        <div><br></div>
+        <div class="start-here_latestpost_trunc_text">An elderly man, a little over sixty years of age, presented primarily with a chronic history of <b>discharge from his perineal area</b>. He had tried several remedies for about six weeks prior to presentation...<a href="athfistulotomy.html">(continue reading)</a></div>
+        <div><br></div>
+        </div>
+        
+        <!--End of post div-->
+        
       
-     <section >
-      <div class="leftdiv">
-       <div class="homepg_postlist_headerdiv"><p class="homepg_postlist_header"><b>ATH</b><span class="stylishblog">Blog</span>--Select Cases</p></div>
-        <div class="homepg_postlist"><p></p></div>
-       <img src="images/athblog.jpg" alt="ATHBlog" width="100%" height="">
-      </div>
-      
-      <div class="middlediv">
-        <div class="blogwelcomediv"><p class="blogwelcomediv_text"><b>Welcome <br> to <br>ATH<span class="stylishblog">Blog</span></b></p></div>
-        <div class="middlediv_ctadiv"><p class="middlediv_ctadivtext"><a href="start-here.html"><b>Start here</b></a></p></div>
-      </div>
-      
-      <div class="rightdiv">
-        <div class="homepg_latestpost_headerdiv"><p class="homepg_latestpost_header"><b>Latest post</b></p></div>
-        <div class="homepg_latestpost"><a href="athfistulotomy.html"><b>Repair of a Low Anal Fistula </b><br><span class="homepg_latestpost_subheading">—a painful, often embarrassing condition.</span></a></div>
-        <a href="athfistulotomy.html"><img class="homepg_latestpost_img" src="images/surgeryphoto.jpg" alt="fistulotomy" width="99%" height=""></a>
-      </div>
+        <div class="start-here_bio_headerdiv"><p class="start-here_bio_header"><b>Learn more...</b></p></div>
+        <div><br></div>
+        
+        <div class="start-here_bio_div">
+          <div class="start-here_bio_tittle"><a href="about-us.html#leader-section"><b>About Dr. Adeyemo Tade</b></a></div>
+          <a href="about-us.html#leader-section"><img class="start-here_bio_img" src="images/start-here_bio_img.jpg" alt="Dr. Adeyemo Tade" width="30%" height=""></a>
+        </div>
+        <div><br></div>
+        <div><br></div>
       </section>
-      
       
     </main>
     
